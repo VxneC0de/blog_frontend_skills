@@ -1,0 +1,89 @@
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: pink;
+
+    /* background: url(../img/FondoOne.png) no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.home .content{
+    max-width: 50%;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color: var(--oscuro);
+    margin-bottom: 15px;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color: var(--medio);
+    padding: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color: var(--claro);
+    padding: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--oscuro);
+    color: var(--claro);
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    text-decoration: none;
+    transition: .2s linear;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background: var(--claro);
+    color: var(--medio);
+}
+
+@media (max-width:991px){
+    section{
+        padding: 2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
+
+    .home .content{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .home .content p{
+        text-align: center;
+    }
+}
+
+@media (max-width:720px){
+    
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2.5rem;
+    }
+}

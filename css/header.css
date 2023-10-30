@@ -1,0 +1,91 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0,.1);
+}
+
+header .logo{
+    font-size: 3rem;
+    color: var(--medio);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.spanOne{
+    color: var(--oscuro);
+}
+
+.spanTwo{
+    color: var(--medio);
+}
+
+.navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: var(--oscuro);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: var(--medio);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: var(--oscuro);
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgb(0, 0, 0,.3);
+    display: none;
+}
+
+
+@media (max-width:991px){
+    header{
+        padding: 2rem;
+    }
+}
+
+@media (max-width:720px){
+    
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--oscuro);
+        border-top: .1rem solid rgb(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .2s linear;
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        transition: .2s linear;
+    }
+
+    .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid var(--claro);
+        display: block;
+    }
+}
