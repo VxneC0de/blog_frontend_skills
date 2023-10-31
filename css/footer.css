@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--medio);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    padding-inline: 43px;
+    padding-block: 48px;
+  }
+  
+  .footer__container-p {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .footer__container-social img {
+    font-size: 18px;
+    margin-inline: 22px;
+  }

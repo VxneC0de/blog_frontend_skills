@@ -7,6 +7,7 @@
 @import "./html.css";
 @import "./css.css";
 @import "./contact.css";
+@import "./footer.css";
 
 :root {
     --white: #ffffff;
