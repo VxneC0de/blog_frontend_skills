@@ -9,7 +9,7 @@ section{
     align-items: center;
     justify-content: flex-start;
 
-    background: url(../img/fondoOne.png) no-repeat;
+    background: url(./img/fondoOne.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
