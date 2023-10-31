@@ -2,13 +2,15 @@
 
 @import "./header.css";
 @import "./home.css";
+@import "./setup.css";
 
 :root {
     --white: #ffffff;
     --black: #000000;
-    --claro: #64CCC5;
-    --medio: #176B87;
-    --oscuro: #04364A;
+    --claro: #8696FE;
+    --medio: #4942E4;
+    --oscuro: #190482;
+    --teal: #49dbd2;
 }
 
 body {

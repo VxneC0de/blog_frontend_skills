@@ -1,38 +1,41 @@
 section{
-    padding: 2rem 9%;
+    min-height: 100vh;
 }
 
 .home{
+    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    min-height: 100vh;
-    background-color: pink;
+    justify-content: flex-start;
 
-    /* background: url(../img/FondoOne.png) no-repeat;
+    background: url(../img/fondoOne.png) no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
 }
 
 .home .content{
     max-width: 50%;
+    margin-left: 10%;
 }
 
 .home .content h3{
     font-size: 6rem;
-    color: var(--oscuro);
+    color: var(--white);
     margin-bottom: 15px;
 }
 
 .home .content span{
     font-size: 3.5rem;
-    color: var(--medio);
+    font-weight: 600;
+    color: var(--claro);
     padding: 1rem 0;
     line-height: 1.5rem;
 }
 
 .home .content p{
     font-size: 1.5rem;
-    color: var(--claro);
+    color: var(--white);
     padding: 1rem 0;
     line-height: 1.5rem;
 }
@@ -41,8 +44,8 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: var(--oscuro);
-    color: var(--claro);
+    background: var(--teal);
+    color: var(--oscuro);
     padding: .9rem 3.5rem;
     cursor: pointer;
     font-size: 1.7rem;
@@ -52,13 +55,13 @@ section{
 }
 
 .btn:hover{
-    background: var(--claro);
-    color: var(--medio);
+    background: var(--oscuro);
+    color: var(--white);
 }
 
 @media (max-width:991px){
     section{
-        padding: 2rem;
+        min-height: 100vh;
     }
 
     .home{
@@ -70,6 +73,7 @@ section{
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-left: 0;
     }
 
     .home .content p{
