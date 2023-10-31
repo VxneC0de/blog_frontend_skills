@@ -10,7 +10,7 @@ section{
     justify-content: flex-start;
     background-color: var(--oscuro);
 
-    background: url(/img/fondoOne.png) no-repeat;
+    background: url(../img/fondoOne.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
