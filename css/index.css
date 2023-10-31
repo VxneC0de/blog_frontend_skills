@@ -3,6 +3,10 @@
 @import "./header.css";
 @import "./home.css";
 @import "./setup.css";
+@import "./gitGithub.css";
+@import "./html.css";
+@import "./css.css";
+@import "./contact.css";
 
 :root {
     --white: #ffffff;

@@ -1,0 +1,69 @@
+.css{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.css .container{
+    width: 95%;
+}
+
+.css .container .content{
+    text-align: center;
+}
+
+.css .container .content{
+    text-align: center;
+}
+
+.css .container .content h4{
+    font-size: 2.5rem;
+    color: #333;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.css .container .content h5{
+    font-size: 2rem;
+    color: var(--medio);
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.css .container .content p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--oscuro);
+}
+
+.css .container .content .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.css .container .content .image img{
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.css .container .content ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--oscuro);
+}
+
+@media (max-width:650px){
+
+    .css .container .content .image img{
+        width: 100%;
+    }
+    
+}
